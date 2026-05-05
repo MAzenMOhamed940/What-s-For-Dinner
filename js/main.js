@@ -313,7 +313,7 @@ var mealList = [
     reviews: 200,
     prepTime: 15,
     cookTime: 12,
-    servings: 24,
+    servings: 2,
     ingredients: [
       "2 cups all-purpose flour",
       "1 cup butter, softened",
