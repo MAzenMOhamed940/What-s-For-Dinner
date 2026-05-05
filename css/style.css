@@ -359,6 +359,7 @@ header .main .btn-div {
   padding: 20px;
 }
 
+
 @media screen and (max-width: 992px) {
   header .main .header-image img {
     border-top-left-radius: 16px;
@@ -375,6 +376,44 @@ header .main .btn-div {
     bottom: 40px;
     left: 40px;
   }
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+  header .header-image .food-info{
+      width: 70%;
+  position: absolute;
+  bottom: 40px;
+  left: 90px;
+  font-size: 12px;
+  }
+
+ header .main .header-contnet .tabs .nav{
+    flex-wrap: nowrap !important;
+  }
+ 
+
+
+}
+
+
+@media screen and (max-width:576px) {
+    header .header-image .food-info{
+      width: 70%;
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  font-size: 12px;
+  }
+
+  header .main .header-contnet .tabs .nav{
+    flex-wrap: nowrap !important;
+    gap: 0px !important;
+    font-size: 12px;
+  }
+  
 }
 
 
